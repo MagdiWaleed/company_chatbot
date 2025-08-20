@@ -3,8 +3,8 @@ from agent.agent import get_agent
 from langchain_core.messages import HumanMessage,AIMessage
 import asyncio
 
-st.set_page_config(page_title="Chatbot", page_icon="🤖", layout="centered")
-st.title("🤖 LangGraph Chatbot")
+st.set_page_config(page_title="Amazon", page_icon="🤖", layout="centered")
+st.title("🤖 Amazon Chatbot")
 
 if "agent" not in st.session_state:
     with st.spinner("Initializing agent, please wait... (~10 sec)"):
