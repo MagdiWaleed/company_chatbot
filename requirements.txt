@@ -7,6 +7,7 @@ annotated-types==0.7.0
 anyio==4.10.0
 attrs==25.3.0
 backoff==2.2.1
+banks==2.2.0
 bcrypt==4.3.0
 beautifulsoup4==4.13.4
 blinker==1.9.0
@@ -31,7 +32,7 @@ frozenlist==1.7.0
 fsspec==2025.7.0
 gitdb==4.0.12
 GitPython==3.1.45
-google-ai-generativelanguage>=0.6.18,<0.7.0
+google-ai-generativelanguage==0.6.15
 google-api-core==2.25.1
 google-api-python-client==2.179.0
 google-auth==2.40.3
