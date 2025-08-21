@@ -4,3 +4,5 @@ from langchain_core.messages import HumanMessage,AIMessage
 agent = get_agent()
 
 print(agent.invoke({"messages":[HumanMessage("hi")]}))
+
+
