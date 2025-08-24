@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 import asyncio
 import requests
 
-BASE_URL = "http://192.168.100.14:5000"
+BASE_URL = "https://5000-dep-01k3dct5xvdwnmrmj5vyyrnx3g-d.cloudspaces.litng.ai"
 
 def chat(message:str):
     global BASE_URL
