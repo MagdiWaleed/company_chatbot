@@ -57,13 +57,13 @@ if signInButton:
 
 @st.dialog("Create Account")
 def create_account():
-    name = st.text_input("Enter Your Name")
-    email =st.text_input("Enter Your Email")
-    password =st.text_input("Enter Your Password")
-    money =st.number_input("Enter Your money")
+    names = st.text_input("Enter Your Name.")
+    emails =st.text_input("Enter Your Email.")
+    passwords =st.text_input("Enter Your Password.")
+    moneys =st.number_input("Enter Your money.",value=100)
 
     if st.button("Submit"):
-        signUp(email,password,name,money)
+        signUp(emails,passwords,names,moneys)
 
 
 if st.button("You Don't Have Account"):
