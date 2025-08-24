@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "https://5000-dep-01k3dct5xvdwnmrmj5vyyrnx3g-d.cloudspaces.litng.ai"
+BASE_URL = "https://5000-dep-01k3dk824whgwpw8wgqw2htxbd-d.cloudspaces.litng.ai"
 
 
 def signIn(email:str,password:str):
